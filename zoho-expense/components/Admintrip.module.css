@@ -1,0 +1,107 @@
+.header{
+    
+    display: flex;
+}
+.header p{
+    padding: 20px 5px;
+    font-size: 18px;
+    color: #000000;
+    
+}
+.headerright{
+    padding-top: 10px;
+}
+.headerright button{
+    margin-right: 5px;
+}
+.addnewtrip{
+    background-color: #4d79ff;
+    color: #ffffff;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+}
+.menu{
+    background-color: #ffffff;
+    align-items: center;
+    border-color: #eff5f5;
+    border-width: 1px;
+    border-radius: 4px;
+}
+.help{
+    background-color: #ffffff;
+    color: #4d79ff;
+    align-items: center;
+    border-color: #4d79ff;
+    border-width: 1px;
+    border-radius: 4px;
+}
+.listdetails{
+    display: flex;
+}
+.listdetails div{
+    padding: 15px 5px;
+    font-size: 15px;
+    color: #b8b894;
+}
+.check{
+    margin-right: 20px;
+}
+.tripno{
+    margin-right: 100px;
+}
+.tripdetail{
+    margin-right: 120px;
+}
+.dest{
+    margin-right: 120px;
+}
+.status{
+    margin-right: 120px;
+}
+.approver{
+    margin-right: 120px;
+}
+
+
+.styledtable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.styledtable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.styledtable th,
+.styledtable td {
+    padding: 12px 15px;
+}
+
+
+
+.styledtable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styledtable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styledtable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styledtable tbody tr.activerow {
+    font-weight: bold;
+    color: #009879;
+}

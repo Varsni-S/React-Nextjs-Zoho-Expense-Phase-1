@@ -1,0 +1,200 @@
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 1px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eff5f5;
+}
+.exitbtn{
+    margin-right: 30px;
+    padding: 10px 15px;
+}
+.formmargin{
+    margin: 25px;
+}
+.traveltype{
+    padding-top: 10px;
+}
+.travelbtn{
+    padding: 8px 0px 10px 0px;
+}
+.travelbtntype{
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px 15px; 
+}
+.tripnamereq{
+    color: #cc0000;
+}
+label.tripnamereq::after{
+    content: '*';
+    margin-right: 4px;
+    color: #cc0000;
+}
+.tripnameinput{
+    padding: 10px 200px 10px 10px;
+}
+.buspurptext{
+    padding: 10px 208px 50px 10px;
+}
+/* .itinerarytypeflight{
+    width: 50px;
+    height: 50px;
+    background-color: #eff5f5;
+    border-radius: 50px;
+} */
+.itinerarytypeplane{
+    font-size: 35px;
+}
+.itinerarytype span{
+    font-size: 15px;
+}
+
+.itinerarytypesec{
+    float: left;
+    width: 50px;
+}
+
+.itinerarytypedetailsaside{
+    float: right;
+    padding: 30px 0px 30px 30px;
+    width: 96%;
+    height: 180px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black; */
+    background-color: #eff5f5;
+}
+.itinerarytraveltypedetailsoption{
+    display: flex;
+}
+.itinerarytraveltypedetailsoptiondeparr{
+    display: flex;
+    color: #cc0000;
+}
+.itinerarytraveltypedetailsoptiondeparrdep{
+    width: 250px;
+}
+.itinerarytraveltypedetailsoptiondeparrarr{
+    width: 250px;
+}
+.itinerarytraveltypedetailsoptiondeparrdep::after{
+    content: '*';
+    margin-right: 4px;
+    color: #cc0000;
+}
+.itinerarytraveltypedetailsoptiondepdt{
+    color: #cc0000;
+    width: 250px;
+}
+.itinerarytraveltypedetailsoptiondeparrarr::after{
+    content: '*';
+    margin-right: 4px;
+    color: #cc0000;
+}
+.itinerarytraveltypedetailsoptiondepdt::after{
+    content: '*';
+    margin-right: 4px;
+    color: #cc0000;
+}
+.itinerarytraveltypedetailsoptiondesc{
+    color: #808080;
+}
+.itinerarytraveltypedetailsoptiondet{
+    padding: 20px 100px 0px 0px;
+}
+.itinerarytraveltypedetailsoptiondetdes{
+    display: flex;
+}
+.itinerarytraveltypedetailsoptiondetdescity{
+    display: flex;
+}
+.itinerarytraveltypedetailsoptiondetdescitydepinput{
+    padding: 10px 65px 10px 10px;
+}
+.itinerarytraveltypedetailsoptiondetdescitydptdtinput{
+    padding: 10px 62px 10px 10px;
+}
+.itinerarytraveltypedetailsoptiondetdescitydescinput{
+    padding: 10px 220px 10px 10px;
+}
+.itinerarytypehotel{
+    font-size: 35px;
+    padding-top: 130px;
+}
+.itinerarytypedetailshotelaside{
+    float: right;
+    padding: 30px 0px 30px 30px;
+    width: 96%;
+    height: 180px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black; */
+    background-color: #eff5f5;
+}
+.itinerarytraveltypedetailsoptionhotelloc{
+    color: #cc0000;
+    width: 250px;
+}
+.itinerarytraveltypedetailsoptionhotelchin{
+    color: #cc0000;
+    width: 250px;
+}
+.itinerarytraveltypedetailsoptionhotelchout{
+    color: #cc0000;
+    width: 250px;
+}
+.itinerarytraveltypedetailsoptionhotelloc::after{
+    content: '*';
+    margin-right: 4px;
+    color: #cc0000;
+}
+.itinerarytraveltypedetailsoptionhotelchin::after{
+    content: '*';
+    margin-right: 4px;
+    color: #cc0000;
+}
+.itinerarytraveltypedetailsoptionhotelchout::after{
+    content: '*';
+    margin-right: 4px;
+    color: #cc0000;
+}
+.itinerarytraveltypedetailsoptionhoteldesc{
+    color: #808080;
+}
+/* .itinerarytraveltypedetailsoptiondetdescitydepinput{
+    padding: 10px 65px 10px 10px;
+}
+.itinerarytraveltypedetailsoptiondetdescitydptdtinput{
+    padding: 10px 62px 10px 10px;
+}
+.itinerarytraveltypedetailsoptiondetdescitydescinput{
+    padding: 10px 220px 10px 10px;
+} */
+
+.endbtn{
+    padding: 50px 0px 20px 0px;
+}
+.endbtnsavetype{
+    background-color: #4d79ff;
+    color: #ffffff;
+    margin-left: 25px;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+.endbtntype{
+    background-color: #999999;
+    color: #000000;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px; 
+}

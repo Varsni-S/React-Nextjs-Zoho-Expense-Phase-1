@@ -1,0 +1,146 @@
+.travel {
+  display: flex;
+  background-color: rgb(68, 122, 237);
+  color: white;
+  padding: 30px;
+}
+.content1 {
+  padding: 50px;
+  margin-left: 60px;
+}
+.content2 {
+  padding: 50px;
+  margin-left: 120px;
+  line-height: normal;
+}
+.btnaccess {
+  background-color: rgb(249, 91, 81);
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 8px;
+}
+.btndemo {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: none;
+}
+.trail {
+  padding: 80px;
+  display: flex;
+}
+.trailvideo {
+  border-radius: 30px;
+
+  overflow: hidden;
+}
+.checkmark ul {
+  list-style: none;
+}
+
+.checkmark ul li:before {
+  content: "✓";
+  font-weight: bold;
+  color: blue;
+}
+.trailcontent {
+  padding: 60px;
+  padding-top: 120px;
+  margin-left: 20px;
+  color: rgb(39, 35, 101);
+}
+.traillink {
+  color: blue;
+  padding: 5px;
+}
+.audit {
+  display: flex;
+  padding-bottom: 40px;
+}
+.extend {
+  padding-top: 40px;
+  background-color: rgb(68, 122, 237);
+  color: white;
+}
+.extendhead {
+  align-items: center;
+  text-align: center;
+}
+.extendflex {
+  display: flex;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.extendflex1,
+.extendflex2,
+.extendflex3 {
+  padding: 35px;
+  width: 35%;
+}
+.gallery {
+  text-align: center;
+  height: 45%;
+}
+.galleryexp {
+  text-align: center;
+  height: 45%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.expand {
+  color: rgb(39, 35, 101);
+  text-align: center;
+  padding: 40px;
+}
+.improve {
+  background-color: rgb(29, 35, 59);
+  padding: 100px;
+  display: flex;
+}
+.improvecontent {
+  color: white;
+  margin-left: 150px;
+}
+.improvecontent1 {
+  color: rgb(39, 35, 101);
+  border-radius: 10px;
+  background-color: white;
+  padding: 40px;
+  margin-left: 250px;
+  width: 75%;
+  height: 75%;
+}
+.caretake1,
+.caretake2 {
+  color: rgb(39, 35, 101);
+  padding: 45px;
+}
+.caretake {
+  display: flex;
+  padding: 75px;
+  margin-left: 55px;
+}
+
+.support {
+  border: groove;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(236, 242, 255);
+  display: flex;
+  width: 60%;
+}
+.support1 {
+  border: groove;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(56, 105, 228);
+  color: whitesmoke;
+  width: 60%;
+  display: flex;
+}
+.img1 {
+  width: 12%;
+  height: 30%;
+}

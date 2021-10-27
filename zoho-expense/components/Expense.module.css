@@ -1,0 +1,84 @@
+.heading {
+  border: 5px;
+  padding: 10px;
+  background: rgb(239, 245, 245);
+  background-clip: border-box;
+  width: 90%;
+}
+.data1 {
+  padding: 8px;
+  margin: 8px;
+  width: 80%;
+}
+.label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 600;
+}
+.btn {
+  padding: 20px;
+  margin-left: 300px;
+}
+.savebtn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #008cba;
+  color: white;
+}
+.savenew {
+  padding: 10px;
+  border-radius: 10px;
+  color: #008cba;
+  background-color: white;
+}
+.endbtn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+.date {
+  color: #cc0000;
+}
+.date::after {
+  content: "*";
+  margin-right: 4px;
+  color: #cc0000;
+}
+.category {
+  color: #cc0000;
+}
+.category::after {
+  content: "*";
+  margin-right: 4px;
+  color: #cc0000;
+}
+.amt {
+  color: #cc0000;
+}
+.amt::after {
+  content: "*";
+  margin-right: 4px;
+  color: #cc0000;
+}
+.navbar {
+  display: flex;
+}
+.exit {
+  width: 40px;
+  height: 100%;
+}
+.head {
+  text-align: center;
+}
+.addnewtrip {
+  background-color: #4d79ff;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  margin-left: 120px;
+  padding: 5px;
+
+  width: 68%;
+}

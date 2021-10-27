@@ -1,0 +1,198 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #3e4566;
+}
+
+.brandlogo {
+  color: whitesmoke;
+  padding: 3px;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  width: 200px;
+  height: 100%;
+  background: lightcyan;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2 {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wrapper .sidebar ul li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li a .fas {
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+  background-color: #594f8d;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li:hover a {
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  background-color: #333956;
+  position: relative;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.nav .icon {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+
+.nav ol {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+}
+
+.nav ol li {
+  margin: 0 2px;
+}
+
+.nav ol li a h4 {
+  color: gainsboro;
+
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+.nav ol li a h4 span {
+  color: red;
+
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+.nav ol li a h4 b {
+  color: skyblue;
+
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+.nav ol li a h5 {
+  color: gainsboro;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+
+.nav .search_box input {
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.09);
+  height: 100%;
+  padding: 0 10px;
+  font-size: 20px;
+  width: 350px;
+}
+
+.nav .search_box input:hover {
+  border: none;
+  outline: none;
+  background: white;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 20px;
+  width: 350px;
+}
+
+.nav .search_box span {
+  color: gray;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.09);
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.head {
+  color: #594f8d;
+
+  font-size: 40px;
+}
+.navhead {
+  margin-left: 450px;
+  justify-content: center;
+  text-align: center;
+  border-style: groove;
+  width: 50%;
+  padding: 5px;
+  margin-top: 10px;
+}
+.para {
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.trip {
+  margin-left: 100px;
+  padding: 40px;
+  display: flex;
+  background-color: EFF5F5;
+  width: 65%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.expense {
+  margin-left: 100px;
+  padding: 40px;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.addnewtrip {
+  background-color: #4d79ff;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  margin-left: 120px;
+  padding: 5px;
+
+  width: 68%;
+}
+.addnewexpense {
+  background-color: #4d79ff;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  margin-left: 75px;
+  padding: 5px;
+}
+.adddetails {
+  margin-left: 300px;
+  margin-right: 100px;
+  background-color: rgb(224, 255, 255);
+  width: 70%;
+  margin-top: 50px;
+}

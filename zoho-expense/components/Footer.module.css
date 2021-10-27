@@ -1,0 +1,7 @@
+.footer{
+    text-align: center;
+    padding: 30px 150px 50px 150px;
+}
+.footer>p{
+    font-size: 20px;
+}
